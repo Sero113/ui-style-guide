@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>UI Style Guide</title>
+</head>
+<body>
+    <!-- Main Container full Width -->
+    <div class="container">
+        <div id="header-wrapper">
+            <header>
+                <a href="hero">
+                    <div id="logo">
+                        <h1><span>Black Purple Ui Style Guide</span></h1>
+                    </div>
+                </a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#grids">grids</a></li>
+                        <li><a href="#colors">colors</a></li>
+                        <li><a href="#typography">typography</a></li>
+                        <li><a href="#buttons">buttons</a></li>
+                        <li><a href="#logo-details">logo</a></li>
+                        <li><a href="#icons">logo</a></li>
+                        <li><a href="#product">product</a></li>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                    </ul>
+                    
+                </nav>
+                
+            </header>
+        </div>
+        <!-- Hero Section -->
+        <div id="hero-wrapper">
+            <section id="hero" class="text-focus-in">
+                <h1>Black Purple<br>UI Style Guide<br><span>by Taylor Camacho</span></h1>
+                <div class="divide"></div>
+                    <p>
+                        The goal of a UI style guide is to provide
+                        a comprehensive set of design guidelines and
+                        standards that ensures consistency.
+                    </p>
+                    <i class="fa-solid fa-chevron-down"></i>
+            </section>
+        </div>
+        <div class="divide"></div>
+        <div id="grid-wrapper">
+            <section id="grids">
+                <h2>the grid</h2>
+                <p>
+                    Grids provide a structured framework
+                    for arranging content, helping designers
+                    organize elements in a visually pleasing
+                    and logical manner. This structure ensures
+                    that elements align properly, creating a cohesive
+                    and balanced layout.
+                </p>
+                <div class="divide"></div>
+
+                <div class="grid-container">
+                    <div class="item-1">1/1</div>
+
+                    <div class="item-2">1/2</div>
+                    <div class="item-3">1/2</div>
+
+                    <div class="item-4">1/3</div>
+                    <div class="item-5">1/3</div>
+                    <div class="item-6">1/3</div>
+
+                    <div class="item-7">1/4</div>
+                    <div class="item-8">1/4</div>
+                    <div class="item-9">1/4</div>
+                    <div class="item-10">1/4</div>
+
+                    <div class="item-11">3/4</div>
+                    <div class="item-12">1/4</div>
+                </div>
+            </section>
+        </div>
+        <div class="divide"></div>
+        <div id="logo-wrapper">
+            <div id="logo-details">
+                <h2>Logos</h2>
+                <p>The logo features a stylized symbol
+                    representing [brand concept/identity],
+                    complemented by [font style] typography
+                    for the brand name. Its color scheme of
+                    [colors used] adds a [specific emotional/visual
+                    impact], creating a memorable and versatile
+                    visual identity that reflects the brand's
+                    essence.</p>
+                    <div class="divide"></div>
+                    <div id="logos">
+                        <img src="images/Bkck-purple-logo-trans 1.png" alt="">
+                        <div class="logo-meaning"> This is the 
+                            main logo to be used <br>
+                            Desktop / height: 74px width: 314px
+                            <br>
+                            Mobile / height: 39px width: 163px
+                        </div>
+                        <img src="images/Bkck-purple-logo-black.png" alt="">
+                        <div class="logo-meaning"> This is the secondary logo <br>
+                            Desktop / height: 74px width: 314px
+                            <br>
+                            Mobile / height: 39px width: 163px
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="divide"></div>
+        <div id="color-wrapper">
+            <section id="colors">
+                <h2>Colors</h2>
+                <p>The color pallete for black purple, contains dark and bright purples
+                    with shades of black and tints of white.
+                </p>
+                <div class="divide"></div>
+                <div class="color-container">
+                    <div id="purple">
+                        <div class="meaning">PRIMARY
+                        </div>
+                        <div class="hex">#292929 <br>
+                            RGB: (41,41,41) <br>
+                            CYMK: 0,0,0,84</div>
+                    </div>
+                    <div id="dark-gray">
+                        <div class="meaning">SECONDARY/ACCENT
+                        </div>
+                        <div class="hex">#6636BA <br>
+                            RGB:(102,54,186) <br>
+                            CYMK: 33,52,0,27</div>
+                    </div>
+                    <div id="gray">
+                        <div class="meaning">NEUTRAL
+                        </div>
+                        <div class="hex">#8A8A8A <br>
+                            RGB:(138,138,138) <br>
+                        CYMK: 0,0,0,46</div>
+                    </div>
+                    <div id="white">
+                        <div class="meaning">HIGHLIGHT
+                        </div>
+                        <div class="hex">#F8F8F8 <br>
+                            RGB:(248,248,248) <br>
+                        CYMK:0,0,0,3</div>
+                    </div>
+                    <div id="black">
+                        <div class="meaning"><span>MAIN TEXT</span>
+                        </div>
+                        <div class="hex">#000000 <br>
+                            RGB:(0, 0, 0,) <br>
+                        CYMK:0,0,0,100</div>
+                    </div>
+                </div>
+            </section>
+            <div class="divide"></div>
+            <div id="type-container">
+                <div id="typography">
+                    <h2>Typography</h2>
+                    <p>Typography in a style guide serves to define the visual
+                        identity of a brand through consistent font choices and
+                        styles, ensuring readability and conveying emotional
+                        tone across various platforms and materials.
+                    </p>
+                    <div class="divide"></div>
+                    <h4>Font: Sf Pro</h4>
+                    <div id="heading-1">
+                        <div class="text">Heading-1</div>
+                        <p>53.75px, 2.986em, 298.611% Bold</p>
+                    </div>
+                    <div id="heading-2">
+                        <div class="text">Heading-2</div>
+                        <p>44.79px, 2.986em, 248.833% semi-bold</p>
+                    </div>
+                    <div id="heading-3">
+                        <div class="text">Heading-3</div>
+                        <p>37.32px, 2.986em, 207.333% semi-bold</p>
+                    </div>
+                    <div id="heading-4">
+                        <div class="text">Heading-4</div>
+                        <p>31.1px, 2.986em, 172.778% semi-bold</p>
+                    </div>
+                    <div id="heading-5">
+                        <div class="text">Heading-5</div>
+                        <p>25.92px, 2.986em, 144% semi-bold</p>
+                    </div>
+                    <div id="heading-6">
+                        <div class="text">Heading-6</div>
+                        <p>21.6px, 2.986em, 120% semi-bold</p>
+                    </div>
+                    <div id="body-1">
+                        <div class="text">Body-1</div>
+                        <p>18px, 2.986em, 100% Regular</p>
+                    </div>
+                    <div id="body-2">
+                        <div class="text">Body-1</div>
+                        <p>15px, 2.986em, 83.333% light</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="divide"></div>
+            <div id="button-container">
+                <section id="buttons">
+                    <h2>Buttons/Hyperlink</h2>
+                    <p>Buttons are crucial elements within user
+                       interfaces, providing interactive
+                       functionality and guiding user actions.
+                       They play a vital role in defining a clear
+                       user journey and facilitating seamless
+                       navigation and engagement across digital
+                       platforms and applications.</p>
+                </section>
+                <div class="divide"></div>
+                <div id="button-1">
+                    <button>Button</button>
+                    <h4>Link Text</h4>
+                    <p>width: 217px / height: 50px</p>
+                    <p>border/radius 8px</p>
+                    <p>border/radius/mobile 3px</p>
+                    <p>Color<br>
+                        Hex:#111111 <br>
+                        Rgb:rgba(0, 0, 100%,) <br>
+                        Hover: rgba(102, 54, 186, 40%); </p>
+                </div>
+                <div id="button-2">
+                    <button>Button</button>
+                    <h4>Link Text</h4>
+                    <p>width: 217px / height: 50px</p>
+                    <p>border/radius 8px</p>
+                    <p>border/radius/mobile 3px</p>
+                    <p>Color<br>
+                    Hex:#6636BA <br>
+                    Rgb:rgba(102, 54, 186,) <br>
+                    Hover: rgba(102, 54, 186, 40%); </p>
+                </div>
+
+            </div>
+            
+                
+            </div>
+
+
+
+        </div>
+        <div class="divide"></div>
+        <div id="icongraphy-wrapper">
+            <div id="icons">
+                <h2>Icongraphy</h2>
+                <p>Iconography is vital in user interfaces
+                    as it enhances visual communication,
+                    aids in quick information comprehension,
+                    and fosters intuitive navigation.
+                    Icons simplify complex concepts,
+                    establish brand identity, and
+                    contribute to a cohesive and
+                    engaging user experience across
+                    digital platforms.</p>
+            </div>
+            <div id="icon-1">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-x"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="divide"></div>
+        <div id="display-wrapepr">
+            <div id="display">
+                <h2>Product Display</h2>
+                <p>Product or display cards are crucial
+                    in e-commerce and retail settings as
+                    they provide concise and visually
+                    appealing information about products,
+                    enticing customers to make informed
+                    purchasing decisions. These cards
+                    showcase product details, key
+                    features, pricing, and images
+                    in a compact format, enhancing
+                    user experience, increasing
+                    engagement, and driving
+                    conversions.
+                </p>
+                    <div class="divide"></div>
+                    <div id="product">
+                        <img src="images/8cf0321c5afb930d325d1f719c1a867d.jpg" alt="">
+                        <div class="pro-meaning"> This is the 
+                            main logo to be used <br>
+                            Desktop / height: 74px width: 314px
+                            <br>
+                            Mobile / height: 39px width: 163px
+                    </div>
+            </div>
+        </div>
+    </div>
+    <footer>Black Purple Ui Guide Style</footer>
+</body>
+<script src="java.js"></script>
+</html>
